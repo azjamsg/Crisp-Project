@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style1.css" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <title>Crisp Money App</title>
+  </head>
+  <body>
+    <div class="container">
+        <h2> View Transactions</h2>
+        <h3> Here is your detailed transactions: </h3>
+
+        
+
+        <h4> Filter By: </h4><br>
+    </div>
+    
+    <select id="catDropdown" oninput="filterTransactions(value)">
+      <option value ="">All</option>
+      </select>
+
+      <div class = "trans-table"></div>
+      <table id="myTable" class=".flat-design">
+        
+      </table>
+    </div>
+    <script src="sample.js"></script>
+
+    
+  </body>
+</html>

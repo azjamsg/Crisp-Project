@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style1.css" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <title>Crisp Money App</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <button id = "b5" class="btn" onclick="window.location.href='overview.html'">Back to Overview</button>
+        <h2> View Transactions</h2>
+        <h3> Here is your detailed transactions: </h3>
+
+        
+
+        <h4> Filter By: </h4><br>
+        
+        <input type="text" name="cat" id="cat" onkeyup="filterTransactions(category,user_id)">
+        
+  
+  </div>
+        </div>
+  
+        <div class = "trans-table">
+          <table id="myTable" class=".flat-design">
+          
+          </table>
+      </div>
+
+      <div class="container">
+          <h2>Add/Edit Transaction</h2>
+      <div class="addtrans-form">
+        <!-- remove event.preventDefault(); to allow table to automatically add data without refreshing; -->
+          <form onsubmit = "resetForm()" autocomplete="off">
+              <div>
+                <!-- <label>Transaction ID</label> -->
+                <input type="hidden" name="transaction_id" id="transaction_id">
+              </div>
+              <div>
+                  <label>Date</label><label class="validation-error hide" id="DateValidationError"></label>
+                  <input type="date" name="date" id="date">
+              </div>
+              <div>
+                  <label>Amount $ (-ve expenses, +ve income)</label><br>
+                  <input type="text" name="amount" id="amount">
+              </div>
+              <div>
+                  <label>Description</label>
+                  <input type="text" name="desc" id="desc">
+                  
+              </div>
+            
+              <div  class="form-action-buttons" >
+                  <!--<input id="b1" type="submit" value="Submit">-->
+                  <button id = "b3" class="btn" type="submit" style="float: left" onclick="insertNewRecord()">Add </button>
+                  <button id = "b4" class="btn" type="submit" style="float: right" onclick="updateBackend()">Update</button>
+              </div>
+          </form>
+</div>
+</div>            
+
+    </div>
+      
+    <script src="script1.js"></script>
+
+    
+  </body>
+</html>

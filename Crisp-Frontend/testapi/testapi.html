@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Read Data from Server</title>
+  <script src="testapi.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="teststyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  
+  <!-- My sample pages -->
+</head>
+
+<body>
+  <div>
+    <H1> READ USER DATA FROM API SERVER </H1>
+    <h2> Note: MOCK API is created in POSTMAN </h2>
+
+  </div>
+  <div id="button">
+  <button class="btn btn-info" onclick="getFromServer()">View All</button>
+  </div>  
+  <br>
+  Enter ID: <input type="text"  id="idToDelete" />
+  <button class="btn btn-info" onclick="deleteData()">Delete</button>
+  
+
+  <div class="mypanel"></div>
+
+</body>

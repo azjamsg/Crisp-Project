@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style1.css" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <title>Crisp Money App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2> Welcome back Alan!</h2>
+      <h3> Here is a quick look at your transactions: </h3>
+      <div class="container">
+  
+        <div class="inc-exp-container">
+          <div>
+            <h4>Total Income</h4>
+            <div>
+            <p id="income" class="money plus">+$0.00</p>
+            </div>
+          </div>
+          <div>
+            <h4>Total Expense</h4>
+            <p id="expense" class="money minus">-$0.00</p>
+          </div>
+        </div>
+
+      <div class="pie chart">
+      <h4>Transactions Quick-Look</h4>
+          <svg width = "350" height = "300"></svg>
+          <svg onload="myFunction()";></svg> 
+          </div>  
+      <div>
+          <button id = "b5" class="btn" onclick="window.location.href='detailTrans.html'">View Detailed Transactions</button>
+
+      </div>
+
+    </div>
+      
+    <script src="script1.js"></script>
+
+    
+  </body>
+</html>
