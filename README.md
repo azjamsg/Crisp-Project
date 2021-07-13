@@ -12,7 +12,7 @@ On terminal:
 3. git init
 
 <h3>Crsip Backend</h3>
-<p>Connection to the database using API Postman</p>
+<p>Connection to the database by executing query</p>
 <p>You are required to install node modules in this folder before MYSQL can run</p>
 
 On terminal:
@@ -24,7 +24,7 @@ To run MSYQL on terminal:
 2. node main.js
 
 <h3>Crsip Database-SQL</h3>
-MYSQL were formulated in the files to generate different type of data output<br>
+MYSQL Query were formulated in the files to generate different type of data output<br>
 
 <h3>Crsip Frontend</h3>
 
