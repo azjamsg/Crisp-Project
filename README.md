@@ -12,7 +12,7 @@ On terminal:
 3. git init
 
 <h3>Crsip Backend</h3>
-<p>The files connect to the database using API Postman</p>
+<p>Connection to the database using API Postman</p>
 <p>You are required to install node modules in this folder before MYSQL can run</p>
 
 On terminal:
