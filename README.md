@@ -29,7 +29,7 @@ Formulation of MYSQL Query<br>
 <h3>Crsip Frontend</h3>
 
 <p>The webpages are connected with the backend where datas are exposed through API using express.js and require MYSQL to run.
-However, as the database is locked under property of NUS FinTech Lab, MYSQL might not run for those without an access.</p>
+<br>However, as the database is locked under property of NUS FinTech Lab, MYSQL might not run for those without an access.</p>
 
 There are 3 pages for the website, mainly using html, css and javascript: <br>
 
