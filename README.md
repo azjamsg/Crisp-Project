@@ -28,6 +28,9 @@ MYSQL Query were formulated in the files to generate different type of data outp
 
 <h3>Crsip Frontend</h3>
 
+<p>The webpages are connected with the backend where datas are exposed through API and require MYSQL to run for data to appear on the website.
+However, as the database is locked under property of NUS FinTech Lab, MYSQL might not run for those without an access.</p>
+
 There are 3 pages for the website, mainly using html, css and javascript: <br>
 
 1. Login page (index.html + login.js)
@@ -35,5 +38,4 @@ There are 3 pages for the website, mainly using html, css and javascript: <br>
 3. Detailed page (detailTrans.html + script1.js)
 4. Main stylesheet: style1.css 
 
-<p>The webpages are connected with the backend and datas only appear when MYSQL is running on local. <br>
-However, as the database is locked under property of NUS FinTech Lab, MYSQL might not run for those without an access.</p>
+
