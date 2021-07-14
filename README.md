@@ -1,6 +1,6 @@
 <h2>Crisp Project - Connecting Frontend with Backend</h2>
 This is a expense tracker project that connects frontend with backend and an existing database using API Postman <br>
-The database used is locked and under property of NUS FinTech Lab <br>
+The database used is locked and under property of NUS FinTech Lab, MYSQL might not run for those without an access <br>
 This project was run on visual studio code <br>
 <br>There are mainly 3 folders: backend, database and frontend
 
@@ -11,7 +11,7 @@ On terminal:
 2. cd Crisp-Project (To get into the folder/directory)
 3. git init
 
-<h3>Crsip Backend</h3>
+<h3>Crisp Backend</h3>
 <p>Connection to the database by executing query using node.js</p>
 <p>You are required to install node modules in this folder before MYSQL can run</p>
 
@@ -23,13 +23,12 @@ To run MSYQL on terminal:
 1. cd Crisp-Backend (To get into the folder/directory)
 2. node main.js
 
-<h3>Crsip Database-SQL</h3>
-Formulation of MYSQL Query<br>
+<h3>Crisp Database-SQL</h3>
+Formulation of MYSQL Query with datas<br>
 
-<h3>Crsip Frontend</h3>
+<h3>Crisp Frontend</h3>
 
 <p>The webpages are connected with the backend where datas are exposed through API using express.js and require MYSQL to run.
-<br>However, as the database is locked under property of NUS FinTech Lab, MYSQL might not run for those without an access.</p>
 
 There are 3 pages for the website, mainly using html, css and javascript: <br>
 
