@@ -7,7 +7,7 @@ This project was run on visual studio code <br>
 <h3>To get started:</h3>
 
 On terminal:
-1. git clone https://github.com/Chewzhiyan/Crisp-Project.git
+1. git clone https://github.com/azjamsg/Crisp-Project.git
 2. cd Crisp-Project (To get into the folder/directory)
 3. git init
 
