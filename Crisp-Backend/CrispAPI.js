@@ -210,7 +210,6 @@ router.put("/transactions/update/by-id", (request, response) => {
 });
 
 
-
 router.delete("/transactions/delete/by-id", (request, response) => {
   database.connection.query(
     `delete from transactions where transaction_id = ${request.query.transaction_id}`,
