@@ -19,7 +19,7 @@ On terminal:
 1. cd Crisp-Backend (To get into the folder/directory)
 2. npm install --save mysql express body-parser cors
 
-To run MSYQL on terminal:
+To run MYSQL on terminal:
 1. cd Crisp-Backend (To get into the folder/directory)
 2. node main.js
 
